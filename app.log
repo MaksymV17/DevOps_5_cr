@@ -1,0 +1,15 @@
+2025-12-11 22:18:47,710 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-11 22:18:47,710 [INFO] [33mPress CTRL+C to quit[0m
+2025-12-11 22:19:22,889 [INFO] Сервіс працює
+2025-12-11 22:19:22,890 [INFO] 127.0.0.1 - - [11/Dec/2025 22:19:22] "GET / HTTP/1.1" 200 -
+2025-12-11 22:19:22,938 [INFO] 127.0.0.1 - - [11/Dec/2025 22:19:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-11 22:20:13,221 [INFO] Отримано запит на /status
+2025-12-11 22:20:13,221 [INFO] 127.0.0.1 - - [11/Dec/2025 22:20:13] "GET /status HTTP/1.1" 200 -
+2025-12-11 22:20:30,440 [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:\Универ\5 курс\Devops\SR5-master\main.py", line 40, in error
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
+2025-12-11 22:20:30,442 [INFO] 127.0.0.1 - - [11/Dec/2025 22:20:30] "GET /error HTTP/1.1" 200 -
